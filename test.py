@@ -15,3 +15,6 @@ odd_numbers = [number for number in numbers if number % 2 != 0]
 
 # print the list of odd numbers
 print(odd_numbers)
+
+# create a list of numbers from 0 to 99 that are divisible by 3
+divisible_by_3 = [number for number in numbers if number % 3 == 0]
